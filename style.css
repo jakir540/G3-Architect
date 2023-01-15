@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------- header css styles------------ */
+:root {
+    --Dark1: #000000;
+    --Dark2: #424242;
+    --Btn-color:#FF900E;
+    --Dark03:#727272;
+    --Dark04:#A1A1A1;
+    --Dark05:#D0D0D0;
+    --white:#FFFFFF;
+  }
+
+.navbar{
+    background-color: white;
+    height: 74px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}.navbar .logo{
+    padding:0  40px;
+    font-size: 28px;   
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+    
+    
+}
+.navItem{
+    display: flex;
+    align-items: center;
+    padding:0  40px;
+
+}
+.navItem li{
+    list-style: none;
+    margin-right: 30px;
+}
+.navItem li a{
+    text-decoration: none;
+    color:var(--Dark2) ;
+    text-transform: capitalize;
+    font-size: 16px;
+}
