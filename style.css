@@ -207,8 +207,7 @@
 
 /* experience section start on css */
 
-.experience{
- 
+.experience{ 
     width: 1200px;
     height: 1100px;
     margin: auto;
@@ -292,6 +291,9 @@
 
 
 
+/* .navbar, .about, .feature{
+    display: none;
+} */
 
 
 
@@ -352,6 +354,39 @@
        grid-template-columns: repeat(1,1fr);      
         
     }
+    .experience{        
+        
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 1090px;
+           
+    }.experience-content .version{
+        width:330px;
+    }
+    .experience-content .experience-desc{
+        width: 350px;
+        margin-left: 10px;
+    }
+    .experience .image img{
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+       
+    }
+    .experience .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-content .experience-title{
+        width: 330px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    
+
 
 
 
@@ -385,6 +420,42 @@
         width:300px;   
           
     }
+
+
+
+
+    .experience{        
+        
+        align-items: flex-start;
+        flex-direction: column;
+           
+    }.experience-content .version{
+        width: 290px;
+        margin-left: -9px;
+    }
+    .experience-content .experience-desc{
+        width: 287px;
+       
+    }
+    .experience .image img{
+        width: 350px;
+        height: 600px;
+        object-fit: cover;
+       
+    }
+    .experience .image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        align-items: flex-start;
+    }
+    .experience-content .experience-title{
+        width: 250px;
+        margin-bottom: 30px;
+        margin-left: 13px;
+        
+    }
+
     
     
 }
